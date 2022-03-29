@@ -32,7 +32,7 @@ app.use(session({
 app.use(logger('dev'));
 /* 开发模式 */
 app.use(cors({
-  origin:['http://localhost:8080','http://103.136.124.53:8080'],
+  origin:['http://localhost:8080',''],
   credentials: true
 }));
 app.use(express.json());
