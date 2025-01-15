@@ -1,6 +1,9 @@
 const mysql = require('mysql');
 
 // 数据库配置
+/*
+*  😂我以前是多放心把自己密码明文放这里哈哈哈哈
+*/
 const config = {
     host: 'localhost',
     port: '3306',
